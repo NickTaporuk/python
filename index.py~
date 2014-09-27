@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+__author__ = 'nick'
+import math
+a = input(u"a :")
+b = input(u"b :")
+c = input(u"c :")
+print math.degrees(a)
