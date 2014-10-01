@@ -13,11 +13,6 @@ print test.msq.t(3)
 # parent.show()
 
 
-
-
-
-
-
 '''Qt library first test'''
 # print(sys.argv[1])
 # print django.VERSION
