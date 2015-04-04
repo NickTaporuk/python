@@ -35,17 +35,17 @@ def get_pagination():
     link = SoupStrainer('div')
     soup = BeautifulSoup(get_html(URL), parseOnlyThese=link)
     s = soup.findAll('div', {"class": "paginator"})
-    arr = 0
+    active = 0
     for i in s:
         ii = i.findAll('li',{'class':'active'})
         for tag in ii:
             # print ii
             try:
-                if arr < tag.span.string:
-                    arr = int(tag.span.string)+1
+                if active < tag.span.string:
+                    active = int(tag.span.string)+1
             except:
-                arr = 0
-    return arr
+                active = 0
+    return active
 
 def set_data_to_file(name, string):
     infile = open(name, 'w')
