@@ -11,8 +11,8 @@ from sqlalchemy import create_engine
 
 # URL = 'http://weblancer.net'
 # URL = 'http://github.com'
-URL = 'http://www.lun.ua/%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80-%D0%BA%D0%B8%D0%B5%D0%B2?page=50&roomCount=1&roomCount=2'
-
+URL = 'http://www.lun.ua/%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80-%D0%BA%D0%B8%D0%B5%D0%B2?page=2&roomCount=1&roomCount=2'
+MAX_PAGE = 10
 #
 # mysql connection
 #
@@ -31,32 +31,31 @@ def get_test():
 #
 # lun.ua get pagination
 #
-def get_pagination():
+def get_pagination(page = 1):
     link = SoupStrainer('div')
-    soup = BeautifulSoup(get_html(URL), parseOnlyThese=link)
-    s = soup.findAll('div', {"class": "paginator"})
     active = 0
-    for i in s:
+    for i in BeautifulSoup(get_html(URL), parseOnlyThese=link).findAll('div', {"class": "paginator"}):
         ii = i.findAll('li',{'class':'active'})
         for tag in ii:
             # print ii
             try:
                 if active < tag.span.string:
-                    active = int(tag.span.string)+1
+                    active = int(tag.span.string)+page
             except:
                 active = 0
     return active
 
 def set_data_to_file(name, string):
-    infile = open(name, 'w')
+    # infile = open(name, 'w') #запись в файл
+    infile = open(name, 'a')
     infile.write(str(string))
 
 
 def main():
     # infile = open('test.txt', 'w')
     # infile.write(get_html(URL))
-    set_data_to_file('pagination.txt', get_pagination())
+    # set_data_to_file('pagination.txt', get_pagination())
     # set_data_to_file('html.txt', get_test())
-    print get_pagination()
+    print get_pagination(1)
 if __name__ == '__main__':
     main()
