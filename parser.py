@@ -1,15 +1,23 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+__author__ = 'nictaporuk@yandex.ru'
+__copyright__ = 'Copyright 2015 NickTaporuk'
+__version__ = '0.0.1'
 from urllib import urlopen
 from BeautifulSoup import BeautifulSoup, SoupStrainer
-# import sys, time, os
+import sys, time, os
+from sqlalchemy import create_engine
 
-__author__ = 'nick'
 
 # URL = 'http://weblancer.net'
 # URL = 'http://github.com'
-URL = 'http://www.lun.ua/%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80-%D0%BA%D0%B8%D0%B5%D0%B2?roomCount=1&roomCount=2'
+URL = 'http://www.lun.ua/%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80-%D0%BA%D0%B8%D0%B5%D0%B2?page=50&roomCount=1&roomCount=2'
+
+#
+# mysql connection
+#
+def db_connect(name='root'):
+     return create_engine("mysql+pymysql://root:root@localhost/yii2")
 
 def get_html(url):
     response = urlopen(url)
@@ -29,23 +37,14 @@ def get_pagination():
     s = soup.findAll('div', {"class": "paginator"})
     arr = 0
     for i in s:
-        ii = i.findAll('li')
+        ii = i.findAll('li',{'class':'active'})
         for tag in ii:
-            for t in tag:
-                try:
-                    # print str(ii[1].contents)
-                    # ii[1].contents
-                    # print tag.contents
-                    # print t.name
-                    if t.name == 'a':
-                        # print t.string
-                        if arr < t.string:
-                            arr = t.string
-                    # else:
-                    #     print 'None'
-                except:
-                #     print 'bad string'
-                    continue
+            # print ii
+            try:
+                if arr < tag.span.string:
+                    arr = int(tag.span.string)+1
+            except:
+                arr = 0
     return arr
 
 def set_data_to_file(name, string):
@@ -54,37 +53,10 @@ def set_data_to_file(name, string):
 
 
 def main():
-    # print(get_html(URL))
     # infile = open('test.txt', 'w')
     # infile.write(get_html(URL))
-    # pass
-    # s = get_test()
-    # print s
-    # set_data_to_file('pagination.txt', get_pagination())
+    set_data_to_file('pagination.txt', get_pagination())
     # set_data_to_file('html.txt', get_test())
     print get_pagination()
-    # print [tag['class'] for tag in s]
-    # arr = 0
-    # for i in s:
-    #     ii = i.findAll('li')
-    #     for tag in ii:
-    #         for t in tag:
-    #             try:
-    #                 # print str(ii[1].contents)
-    #                 # ii[1].contents
-    #                 # print tag.contents
-    #                 # print t.name
-    #                 if t.name == 'a':
-    #                     # print t.string
-    #                     if arr < t.string:
-    #                         arr = t.string
-    #                 else:
-    #                     print 'None'
-    #             except:
-    #                 print 'bad string'
-    #                 continue
-    #
-    # print arr
-
 if __name__ == '__main__':
     main()

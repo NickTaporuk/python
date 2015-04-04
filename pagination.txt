@@ -1,8 +1,1 @@
-[<div class="paginator">
-<div class="paginator-next">
-<a href="/продажа-квартир-киев?page=2&amp;roomCount=1&amp;roomCount=2" id="page-next">следующая</a>
-<span id="next-label"></span>
-</div>
-<ul>
-<li class="active"><span>1</span></li><li><a href="/продажа-квартир-киев?page=2&amp;roomCount=1&amp;roomCount=2">2</a></li><li><a href="/продажа-квартир-киев?page=3&amp;roomCount=1&amp;roomCount=2">3</a></li><li><a href="/продажа-квартир-киев?page=4&amp;roomCount=1&amp;roomCount=2">4</a></li><li><a href="/продажа-квартир-киев?page=5&amp;roomCount=1&amp;roomCount=2">5</a></li><li>...</li> </ul>
-</div>]
+51
