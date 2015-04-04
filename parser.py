@@ -20,11 +20,33 @@ def get_test():
     links = SoupStrainer('div')
     soup = BeautifulSoup(get_html(URL), parseOnlyThese=links)
     return soup.findAll('div', { "class" : "obj" })
-
+#
+# lun.ua get pagination
+#
 def get_pagination():
     link = SoupStrainer('div')
     soup = BeautifulSoup(get_html(URL), parseOnlyThese=link)
-    return soup.findAll('div', {"class": "paginator"})
+    s = soup.findAll('div', {"class": "paginator"})
+    arr = 0
+    for i in s:
+        ii = i.findAll('li')
+        for tag in ii:
+            for t in tag:
+                try:
+                    # print str(ii[1].contents)
+                    # ii[1].contents
+                    # print tag.contents
+                    # print t.name
+                    if t.name == 'a':
+                        # print t.string
+                        if arr < t.string:
+                            arr = t.string
+                    # else:
+                    #     print 'None'
+                except:
+                #     print 'bad string'
+                    continue
+    return arr
 
 def set_data_to_file(name, string):
     infile = open(name, 'w')
@@ -40,25 +62,29 @@ def main():
     # print s
     # set_data_to_file('pagination.txt', get_pagination())
     # set_data_to_file('html.txt', get_test())
-    s = get_pagination()
+    print get_pagination()
     # print [tag['class'] for tag in s]
-    for i in s:
-        ii = i.findAll('li')
-        for tag in ii:
-            for t in tag:
-                try:
-                    # print str(ii[1].contents)
-                    # ii[1].contents
-                    # print tag.contents
-                    # print t.name
-                    if t.name == 'a':
-                        print t.string
-                    else:
-                        print 'None'
-
-                except:
-                    print 'bad string'
-                    continue
+    # arr = 0
+    # for i in s:
+    #     ii = i.findAll('li')
+    #     for tag in ii:
+    #         for t in tag:
+    #             try:
+    #                 # print str(ii[1].contents)
+    #                 # ii[1].contents
+    #                 # print tag.contents
+    #                 # print t.name
+    #                 if t.name == 'a':
+    #                     # print t.string
+    #                     if arr < t.string:
+    #                         arr = t.string
+    #                 else:
+    #                     print 'None'
+    #             except:
+    #                 print 'bad string'
+    #                 continue
+    #
+    # print arr
 
 if __name__ == '__main__':
     main()
