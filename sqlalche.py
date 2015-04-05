@@ -44,9 +44,22 @@ end table
 """
 класс Недвижимости
 """
-estate = Table('estate', metadata, Column('id', Integer, primary_key=True),
-                                    Column('city', VARCHAR(255), nullable=False),
-                                    Column('area', DateTime, default=datetime.now()))
+mt = MetaData()
+
+estate = Table('estate', mt, Column('id', Integer, primary_key=True),
+                                    Column('city', VARCHAR(255), default=null),
+                                    Column('area', VARCHAR(255), default=null),
+                                    Column('street', VARCHAR(255), default=null),
+                                    Column('home', VARCHAR(255), default=null),
+                                    Column('storey', SmallInteger(), default=null),
+                                    Column('link', VARCHAR(255), default=null),
+                                    Column('yardage', Integer(), default=null),
+                                    Column('state_object', Text(), default=null),
+                                    Column('date_placement', Integer(), default=null),
+                                    Column('date_parsing', Integer(), default=null),
+                                    Column('price', Integer(), default=null),
+                                    Column('currency', VARCHAR(4), default=null),
+)
 
 class Estate(object):
     __tablename__ = 'estate'
@@ -69,6 +82,8 @@ class Estate(object):
 
     def __repr__(self):
         return "<Person('%s','%s')>" % ( self.city, self.area, self.street, self.home, self.storey, self.link, self.yardage, self.state_object, self.comment, self.date_placement,self.date_parsing, self.price, self.currency)
+
+mapper(Estate, estate)
 
 """
 end Estate class
