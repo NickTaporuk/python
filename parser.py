@@ -8,7 +8,8 @@ from BeautifulSoup import BeautifulSoup, SoupStrainer
 import sys, time, os
 from sqlalchemy import *
 from sqlalchemy.ext.declarative import declarative_base
-
+from sqlalchemy.orm import mapper
+from sqlalchemy.orm import sessionmaker
 URL = 'http://www.lun.ua/%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80-%D0%BA%D0%B8%D0%B5%D0%B2?page=2&roomCount=1&roomCount=2'
 MAX_PAGE = 100
 #
@@ -16,7 +17,7 @@ MAX_PAGE = 100
 #
 def db_connect(name='root', passw = 'root', host = 'localhost', db = 'real estate'):
     mysql = "mysql+pymysql://%s:%s@%s/%s" % (name, passw, host, db)
-    return create_engine(mysql, echo=True).connect()
+    return create_engine(mysql, echo=False).connect()
 
 def get_html(url):
     response = urlopen(url)
@@ -65,12 +66,9 @@ def set_data_to_file(name, string):
     # infile = open(name, 'w') #запись в файл
     infile = open(name, 'a')
     infile.write(str(string))
-
-class Person(Base):
-    __table_name__ = 'person'
-    id = Column(Integer, primary_key=True)
-    name = Column(String(25), nullable=False)
-
+#
+#
+#
 def main():
     # infile = open('test.txt', 'w')
     # infile.write(get_html(URL))
@@ -87,37 +85,7 @@ def main():
     # for row in result:
     #     print dict(row)
     # print get_html(get_url_lun(2, 3))
-    # pass
-    metadata = MetaData()
-    # table = Table('person', metadata, Column('id', Integer, primary_key=True), Column('name', String(25), nullable=False))
-    # e = db_connect()
-    # table.insert()
-    # print table.select().limit(1)
-    # print table.select().order_by(table.columns.name)
-    # e.execute(table.insert(),name='NickTaporuk')
-    Base = declarative_base(metadata=metadata)
-    # print Base
-    print Person(Base)
+    pass
 
 if __name__ == '__main__':
     main()
-
-class Estate(object):
-    def __init__(self, id, city, area, street, home, storey, link, yardage, state_object, comment, date_placement, date_parsing, price, currency):
-        self.id             = id
-        self.city           = city
-        self.area           = area
-        self.street         = street
-        self.home           = home
-        self.storey         = storey
-        self.link           = link
-        self.yardage        = yardage
-        self.state_object   = state_object
-        self.comment        = comment
-        self.date_placement = date_placement
-        self.date_parsing   = date_parsing
-        self.price          = price
-        self.currency       = currency
-
-    def __repr__(self):
-        return "<Estate('%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')>" % (self.id, self.city, self.area, self.street, self.home, self.storey, self.link, self.yardage, self.state_object, self.comment, self.date_placement, self.date_parsing, self.price, self.currency)
