@@ -41,13 +41,13 @@ def get_lun_article(url =URL):
 
         for ii in i.findAll('div', {'class': "obj-left"}):
             v = ii.h3
-            print v
+            return v
             # obj_left.append([v.string[v.string.find('$')], v.string.replace('$','')])# obj_right
 
             #  obj = {ii.span.string.find('$')} # currency
     # return soup.findAll('div', { "class" : "obj" })
     # return len(obj_right)
-    return obj_right
+    # return obj_right
 """
 lun.ua get pagination
 """
