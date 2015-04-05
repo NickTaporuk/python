@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/parser.py" line="34" mnemonic="1" />
-    <bookmark url="file://$PROJECT_DIR$/parser.py" line="83" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/parser.py" line="35" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/parser.py" line="89" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdf07f36-002c-49e3-80be-63b1226cc5a0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html.txt" afterPath="$PROJECT_DIR$/html.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parser.py" afterPath="$PROJECT_DIR$/parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqlalche.py" afterPath="$PROJECT_DIR$/sqlalche.py" />
     </list>
     <ignored path="pythonParser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +34,8 @@
       <file leaf-file-name="parser.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5334395" vertical-offset="313" max-vertical-offset="1728">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.705414" vertical-offset="313" max-vertical-offset="1836">
+              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
               <folding>
                 <element signature="e#149#175#0" expanded="true" />
               </folding>
@@ -469,7 +467,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/parser.py</url>
-          <line>64</line>
+          <line>70</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -851,8 +849,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5334395" vertical-offset="313" max-vertical-offset="1728">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.705414" vertical-offset="313" max-vertical-offset="1836">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
           <folding>
             <element signature="e#149#175#0" expanded="true" />
           </folding>

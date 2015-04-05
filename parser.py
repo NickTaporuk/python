@@ -28,20 +28,26 @@ def get_html(url):
 
 """
 def get_lun_article(url =URL):
-    price = []
+    obj_right = []
+    obj_left = []
     c = 0
     link = SoupStrainer('div')
     for i in BeautifulSoup(get_html(url), parseOnlyThese=link).findAll('div', { "class" : "obj" }):
         # return i['class']
 
-         for ii in i.findAll('div', {'class': "obj-right"}):
+        for ii in i.findAll('div', {'class': "obj-right"}):
             v = ii.span
-            price.append([v.string[v.string.find('$')], v.string.replace('$','')])# price
+            obj_right.append([v.string[v.string.find('$')], v.string.replace('$','')])# obj_right
+
+        for ii in i.findAll('div', {'class': "obj-left"}):
+            v = ii.h3
+            print v
+            # obj_left.append([v.string[v.string.find('$')], v.string.replace('$','')])# obj_right
 
             #  obj = {ii.span.string.find('$')} # currency
     # return soup.findAll('div', { "class" : "obj" })
-    # return len(price)
-    return price
+    # return len(obj_right)
+    return obj_right
 """
 lun.ua get pagination
 """
