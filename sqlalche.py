@@ -81,7 +81,7 @@ class Estate(object):
         self.currency       = currency
 
     def __repr__(self):
-        return "<Person('%s','%s')>" % ( self.city, self.area, self.street, self.home, self.storey, self.link, self.yardage, self.state_object, self.comment, self.date_placement,self.date_parsing, self.price, self.currency)
+        return "<Person('%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')>" % (self.city, self.area, self.street, self.home, self.storey, self.link, self.yardage, self.state_object, self.comment, self.date_placement, self.date_parsing, self.price, self.currency)
 
 mapper(Estate, estate)
 
@@ -99,6 +99,7 @@ Session = sessionmaker(bind=e)
 session = Session()
 # person = Person(name='Tests')
 session.add(Person('Tests1', datetime.now()))
+session.add(Estate('Tests1', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1))
 # print session.new
 session.commit()
 # print datetime.now()

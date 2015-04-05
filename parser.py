@@ -12,30 +12,45 @@ from sqlalchemy.orm import mapper
 from sqlalchemy.orm import sessionmaker
 URL = 'http://www.lun.ua/%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80-%D0%BA%D0%B8%D0%B5%D0%B2?page=2&roomCount=1&roomCount=2'
 MAX_PAGE = 100
-#
-# mysql connection
-#
+"""
+mysql connection
+"""
 def db_connect(name='root', passw = 'root', host = 'localhost', db = 'real estate'):
     mysql = "mysql+pymysql://%s:%s@%s/%s" % (name, passw, host, db)
     return create_engine(mysql, echo=False).connect()
+"""
 
+"""
 def get_html(url):
     response = urlopen(url)
     return response.read()
-    # pass
+"""
 
-def get_test():
-    links = SoupStrainer('div')
-    soup = BeautifulSoup(get_html(URL), parseOnlyThese=links)
-    return soup.findAll('div', { "class" : "obj" })
-#
-# lun.ua get pagination
-#
-def get_pagination(page = 1):
+"""
+def get_lun_article(url =URL):
+    price = []
+    c = 0
+    link = SoupStrainer('div')
+    for i in BeautifulSoup(get_html(url), parseOnlyThese=link).findAll('div', { "class" : "obj" }):
+        # return i['class']
+
+         for ii in i.findAll('div', {'class': "obj-right"}):
+            v = ii.span
+            price.append([v.string[v.string.find('$')], v.string.replace('$','')])# price
+
+            #  obj = {ii.span.string.find('$')} # currency
+    # return soup.findAll('div', { "class" : "obj" })
+    # return len(price)
+    return price
+"""
+lun.ua get pagination
+"""
+
+def get_pagination(page = 1,url = URL):
     link = SoupStrainer('div')
     active = 0
-    for i in BeautifulSoup(get_html(URL), parseOnlyThese=link).findAll('div', {"class": "paginator"}):
-        ii = i.findAll('li',{'class':'active'})
+    for i in BeautifulSoup(get_html(url), parseOnlyThese=link).findAll('div', {"class": "paginator"}):
+        ii = i.findAll('li', {'class': 'active'})
         for tag in ii:
             # print ii
             try:
@@ -44,12 +59,6 @@ def get_pagination(page = 1):
             except:
                 active = 0
     return active
-#
-#
-#
-def get_plain_lun():
-    pass
-
 #
 #
 #
@@ -62,30 +71,20 @@ def get_url_lun(page = 0, roomCountry = 1):
     # pass
 
 
-def set_data_to_file(name, string):
-    # infile = open(name, 'w') #запись в файл
-    infile = open(name, 'a')
+def set_data_to_file(name, string, action = 'w'):
+    infile = open(name, action)#дозапись - a,запись-w...
     infile.write(str(string))
 #
 #
 #
 def main():
-    # infile = open('test.txt', 'w')
-    # infile.write(get_html(URL))
     # set_data_to_file('pagination.txt', get_pagination())
-    # set_data_to_file('html.txt', get_test())
+    # set_data_to_file('html.txt', get_lun_article(get_url_lun(5,2)))
+    # print get_url_lun()
     # print get_pagination(1)
     # print table.columns
-    # print metadata.tables
-    # metadata.create_all(e)
-
-    # print table.insert()
-    # result = e.execute('SELECT * FROM `real estate`.estate')
-    # print result.scalar()
-    # for row in result:
-    #     print dict(row)
-    # print get_html(get_url_lun(2, 3))
-    pass
+    set_data_to_file('article.txt',get_lun_article())
+    # pass
 
 if __name__ == '__main__':
     main()
