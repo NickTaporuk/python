@@ -44,12 +44,22 @@ def get_lun_article(url =URL):
         # return i['class']
         # s2 = u''.join(unichr(ord(c)) for c in s)
         for ii in i.findAll('div', {'class': "obj-right"}):
+            """
+            валюта,цена
+            """
             v = ii.span
             obj_right.append([v.string[v.string.find('$')], v.string.replace('$','')])# obj_right
 
         for ii in i.findAll('div', {'class': "obj-left"}):
+            """
+            улица
+            """
+            print ii.h3.a.string
             obj_left.append(ii.h3.a.string.split(','))
             for iii in ii.findAll('div', {'class': "obj-locality"}):
+                """
+                район
+                """
                 if iii.string != None:
                     area.append(iii.string)
                 else:
