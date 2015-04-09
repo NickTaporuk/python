@@ -25,12 +25,14 @@ mysql connection
 def db_connect(name='root', passw = 'root', host = 'localhost', db = 'real estate'):
     mysql = "mysql+pymysql://%s:%s@%s/%s" % (name, passw, host, db)
     return create_engine(mysql, echo=False).connect()
+
 """
 
 """
 def get_html(url):
     response = urlopen(url)
     return response.read()
+
 """
 
 """
@@ -54,7 +56,7 @@ def get_lun_article(url =URL):
             """
             улица
             """
-            print ii.h3.a.string
+            # print ii.h3.a.string
             obj_left.append(ii.h3.a.string.split(','))
             for iii in ii.findAll('div', {'class': "obj-locality"}):
                 """
@@ -64,6 +66,9 @@ def get_lun_article(url =URL):
                     area.append(iii.string)
                 else:
                     area.append(iii.contents[0])
+            # obj-params
+            for wrap in ii.findAll('div',{'class':'wrap'}):
+                print ii
     # return len(area)
     all = zip(obj_right, obj_left, area)
     return all[0]
@@ -114,7 +119,7 @@ def main():
     t = get_lun_article()
     print len(t[0][0])
     # set_data_to_file('article.txt',get_lun_article())
-    set_data_to_file('article.txt', t[0][1])
+    # set_data_to_file('article.txt', t[0][1])
     # pass
 
 if __name__ == '__main__':
