@@ -89,17 +89,39 @@ mapper(Estate, estate)
 end Estate class
 """
 
-e = db_connect()
+# e = db_connect()
 
 # print table.select().limit(1)
 # print e.execute(table.select().limit(1), name='NickTaporuk')
 # metadata.create_all(e)
 
-Session = sessionmaker(bind=e)
-session = Session()
+# Session = sessionmaker(bind=e)
+# session = Session()
 # person = Person(name='Tests')
-session.add(Person('Tests1', datetime.now()))
-session.add(Estate('Tests1', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1))
+# session.add(Person('Tests1', datetime.now()))
+# session.add(Estate('Tests1', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1))
 # print session.new
-session.commit()
+# session.commit()
 # print datetime.now()
+print 222222222222
+
+
+def main():
+    e = db_connect()
+    print 11111
+    # print table.select().limit(1)
+    # print e.execute(table.select().limit(1), name='NickTaporuk')
+    # metadata.create_all(e)
+
+    Session = sessionmaker(bind=e)
+    session = Session()
+    # person = Person(name='Tests')
+    session.add(Person('Tests2', datetime.now()))
+    session.add(Estate('Tests2', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1))
+    # print session.new
+    session.commit()
+
+if __name__ == '__main__':
+    main()
+
+main()

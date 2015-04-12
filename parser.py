@@ -9,15 +9,11 @@ __version__ = '0.0.1'
 # sys.setdefaultencoding('utf8')
 from urllib import urlopen
 from BeautifulSoup import BeautifulSoup, SoupStrainer
-import sys, time, os
 from sqlalchemy import *
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import mapper
-from sqlalchemy.orm import sessionmaker
-import simplejson as json
-from pprint import pprint
+import re
+import dataSqlAlchemy as db
 
-URL = 'http://www.lun.ua/%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80-%D0%BA%D0%B8%D0%B5%D0%B2?page=2&roomCount=1&roomCount=2'
+URL = 'http://www.lun.ua/%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80-%D0%BA%D0%B8%D0%B5%D0%B2?page=0&roomCount=1'
 MAX_PAGE = 100
 """
 mysql connection
@@ -67,8 +63,10 @@ def get_lun_article(url =URL):
                 else:
                     area.append(iii.contents[0])
             # obj-params
-            for wrap in ii.findAll('div',{'class':'wrap'}):
-                print ii
+            for wrap in ii.findAll('div',{'class':'obj-params'}):
+                str = re.search('(\d)?\d(\.\d)?\s',wrap.div.contents[2])
+                print wrap.div.contents[2]
+                print str.group(0)
     # return len(area)
     all = zip(obj_right, obj_left, area)
     return all[0]
@@ -117,6 +115,7 @@ def main():
     # print a[0]
     # print u'ущшпрцуп'
     t = get_lun_article()
+    db.main()
     print len(t[0][0])
     # set_data_to_file('article.txt',get_lun_article())
     # set_data_to_file('article.txt', t[0][1])
