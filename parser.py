@@ -7,7 +7,7 @@ __version__ = '0.0.1'
 # import sys
 # reload(sys)
 # sys.setdefaultencoding('utf8')
-from urllib import urlopen
+from urllib import urlopen, urlretrieve
 from BeautifulSoup import BeautifulSoup, SoupStrainer
 from sqlalchemy import *
 import re
@@ -36,6 +36,7 @@ def get_lun_article(url =URL):
     obj_right   = []
     obj_left    = []
     area        = []
+    yardage     = []#метраж
     c = 0
     link = SoupStrainer('div')
     for i in BeautifulSoup(get_html(url), parseOnlyThese=link).findAll('div', { "class" : "obj" }):
@@ -52,8 +53,17 @@ def get_lun_article(url =URL):
             """
             улица
             """
-            # print ii.h3.a.string
-            obj_left.append(ii.h3.a.string.split(','))
+            # print len(ii.h3.a.string)
+            # strok = ii.h3.a.contents[0]
+            # if ii.h3.a.string is not None:
+                # obj_left.append(ii.h3.a.string.split(','))
+            # if ii.h3.a.string:
+            try:
+                obj_left.append(ii.h3.a.string.split(','))
+            except:
+                # print "Ой!  Это некорректное число.  Попробуйте ещё раз..."
+                obj_left.append([0, 0])
+                continue
             for iii in ii.findAll('div', {'class': "obj-locality"}):
                 """
                 район
@@ -63,13 +73,14 @@ def get_lun_article(url =URL):
                 else:
                     area.append(iii.contents[0])
             # obj-params
-            for wrap in ii.findAll('div',{'class':'obj-params'}):
+            for wrap in ii.findAll('div', {'class':'obj-params'}):
                 str = re.search('(\d)?\d(\.\d)?\s',wrap.div.contents[2])
-                print wrap.div.contents[2]
-                print str.group(0)
+                # print wrap.div.contents[2]
+                # print str.group(0)
+                yardage.append(str.group(0))
     # return len(area)
-    all = zip(obj_right, obj_left, area)
-    return all[0]
+    all = zip(obj_right, obj_left, area, yardage)
+    return all
 """
 lun.ua get pagination
 """
@@ -115,8 +126,12 @@ def main():
     # print a[0]
     # print u'ущшпрцуп'
     t = get_lun_article()
-    db.main()
-    print len(t[0][0])
+    # db.main()
+    # for tt in t[0]:
+        # if initer
+        # str.join(',', tt)
+    # print len(t[0][0])
+    print str
     # set_data_to_file('article.txt',get_lun_article())
     # set_data_to_file('article.txt', t[0][1])
     # pass

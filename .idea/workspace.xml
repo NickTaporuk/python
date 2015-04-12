@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/parser.py" line="111" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/parser.py" line="71" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/parser.py" description="ii.h3.a.string" line="68" />
+    <bookmark url="file://$PROJECT_DIR$/parser.py" line="76" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdf07f36-002c-49e3-80be-63b1226cc5a0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSqlAlchemy.py" afterPath="$PROJECT_DIR$/dataSqlAlchemy.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parser.py" afterPath="$PROJECT_DIR$/parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pythonParser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,13 +32,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="parser.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="parser.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1691" max-vertical-offset="2358">
-              <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.5714286" vertical-offset="2028" max-vertical-offset="2628">
+              <caret line="130" column="19" selection-start-line="130" selection-start-column="19" selection-end-line="130" selection-end-column="19" />
               <folding>
-                <element signature="e#262#288#0" expanded="true" />
+                <element signature="e#262#301#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataSqlAlchemy.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dataSqlAlchemy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataSqlAlchemy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9376083" vertical-offset="1727" max-vertical-offset="2376">
-              <caret line="126" column="6" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1709" max-vertical-offset="2340">
+              <caret line="108" column="20" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -78,8 +77,8 @@
         <option value="$PROJECT_DIR$/sqlalche.py" />
         <option value="$PROJECT_DIR$/html.txt" />
         <option value="$PROJECT_DIR$/article.txt" />
-        <option value="$PROJECT_DIR$/parser.py" />
         <option value="$PROJECT_DIR$/dataSqlAlchemy.py" />
+        <option value="$PROJECT_DIR$/parser.py" />
       </list>
     </option>
   </component>
@@ -389,10 +388,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47651514" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47651514" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -434,21 +433,14 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/parser.py</url>
-          <line>92</line>
+          <line>103</line>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm40/system/python_stubs/-1247972723/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="91964" max-vertical-offset="92664">
-          <caret line="5142" column="0" selection-start-line="5142" selection-start-column="0" selection-end-line="5142" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/article.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
@@ -492,7 +484,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2682">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#262#288#0" expanded="true" />
+            <element signature="e#262#301#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -527,7 +519,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2322">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#262#288#0" expanded="true" />
+            <element signature="e#262#301#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -562,7 +554,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2322">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#262#288#0" expanded="true" />
+            <element signature="e#262#301#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -597,7 +589,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1872">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#262#288#0" expanded="true" />
+            <element signature="e#262#301#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -638,7 +630,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1872">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#262#288#0" expanded="true" />
+            <element signature="e#262#301#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -679,7 +671,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#262#288#0" expanded="true" />
+            <element signature="e#262#301#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -706,7 +698,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#262#288#0" expanded="true" />
+            <element signature="e#262#301#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -716,7 +708,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#262#288#0" expanded="true" />
+            <element signature="e#262#301#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -726,7 +718,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="702">
           <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding>
-            <element signature="e#262#288#0" expanded="true" />
+            <element signature="e#262#301#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -844,21 +836,29 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser.py">
+    <entry file="file://$PROJECT_DIR$/dataSqlAlchemy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1691" max-vertical-offset="2358">
-          <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
-          <folding>
-            <element signature="e#262#288#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="1709" max-vertical-offset="2340">
+          <caret line="108" column="20" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataSqlAlchemy.py">
+    <entry file="file:///usr/lib/python2.7/dist-packages/twisted/spread/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9376083" vertical-offset="1727" max-vertical-offset="2376">
-          <caret line="126" column="6" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.33275563" vertical-offset="2184" max-vertical-offset="3870">
+          <caret line="138" column="13" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5714286" vertical-offset="2028" max-vertical-offset="2628">
+          <caret line="130" column="19" selection-start-line="130" selection-start-column="19" selection-end-line="130" selection-end-column="19" />
+          <folding>
+            <element signature="e#262#301#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

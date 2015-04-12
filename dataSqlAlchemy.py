@@ -103,12 +103,10 @@ end Estate class
 # print session.new
 # session.commit()
 # print datetime.now()
-print 222222222222
 
 
 def main():
     e = db_connect()
-    print 11111
     # print table.select().limit(1)
     # print e.execute(table.select().limit(1), name='NickTaporuk')
     # metadata.create_all(e)
