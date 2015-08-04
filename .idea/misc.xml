@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="IdProvider" IDEtalkID="8C91004314A964610ADA68A18AFEC246" />
+=======
+>>>>>>> b25b2ec07b4839db04a24947f127197dede06157
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
