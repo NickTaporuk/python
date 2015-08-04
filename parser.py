@@ -9,7 +9,7 @@ __version__ = '0.0.1'
 # sys.setdefaultencoding('utf8')
 from urllib import urlopen, urlretrieve
 from BeautifulSoup import BeautifulSoup, SoupStrainer
-from sqlalchemy import *
+# from sqlalchemy import *
 import re
 import dataSqlAlchemy as db
 
@@ -53,7 +53,7 @@ def get_lun_article(url =URL):
             """
             улица
             """
-            # print len(ii.h3.a.string)
+            print ii.h3.a.string
             # strok = ii.h3.a.contents[0]
             # if ii.h3.a.string is not None:
                 # obj_left.append(ii.h3.a.string.split(','))
@@ -126,15 +126,17 @@ def main():
     # print a[0]
     # print u'ущшпрцуп'
     t = get_lun_article()
+    # urlretrieve('http://lunimg.appspot.com/lun_ua/104/104/150109845.jpg','test.jpg')
     # db.main()
     # for tt in t[0]:
         # if initer
         # str.join(',', tt)
     # print len(t[0][0])
-    print str
+    # print str
     # set_data_to_file('article.txt',get_lun_article())
     # set_data_to_file('article.txt', t[0][1])
     # pass
+
 
 if __name__ == '__main__':
     main()
