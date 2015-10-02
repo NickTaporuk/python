@@ -114,12 +114,12 @@ def main():
     Session = sessionmaker(bind=e)
     session = Session()
     # person = Person(name='Tests')
-    session.add(Person('Tests2', datetime.now()))
-    session.add(Estate('Tests2', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1))
+    session.add(Person('Tests33333333333', datetime.now()))
+    session.add(Estate('Tests33333333333', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1))
     # print session.new
     session.commit()
 
 if __name__ == '__main__':
     main()
 
-main()
+# main()

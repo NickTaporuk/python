@@ -1,0 +1,17 @@
+<content_types>
+<content_type><id>1</id><title>audio</title><description>Аудио</description></content_type>
+<content_type><id>2</id><title>video</title><description>Видео</description></content_type>
+<content_type><id>3</id><title>text</title><description>Текст</description></content_type>
+<content_type><id>4</id><title>image</title><description>Изображение</description></content_type>
+<content_type><id>5</id><title>scent</title><description>Технологии будущуего уже на подходе</description></content_type>
+<content_type><id>6</id><title>flash</title><description>Различные файлы в формате Macromedia Flash</description></content_type>
+<content_type><id>7</id><title>super flash</title><description>Super Flash реклама, анимация выходит за пределы плеера</description></content_type>
+<content_type><id>8</id><title>telemetry</title><description>Flash реклама telemetry</description></content_type>
+<content_type><id>9</id><title>vast</title><description>VAST реклама</description></content_type>
+<content_type><id>10</id><title>videoroll</title><description>VAST-оподобная реклама</description></content_type>
+<content_type><id>11</id><title>MRAID</title><description>Mobile Rich Media Ad Interface Definitions</description></content_type>
+<content_type><id>12</id><title>survey</title><description>Опросник</description></content_type>
+<content_type><id>13</id><title>vast_vi</title><description>VAST-VI реклама</description></content_type>
+<content_type><id>14</id><title>adselector</title><description>AdSelector</description></content_type>
+<content_type><id>15</id><title>ad_camp_sdk</title><description>AdCamp_sdk</description></content_type>
+</content_types>

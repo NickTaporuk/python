@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+
+<persons_type>
+<person_type><id>1</id><title>Исполнитель</title><description/></person_type>
+<person_type><id>2</id><title>Автор</title><description/></person_type>
+<person_type><id>3</id><title>Режиссер</title><description/></person_type>
+<person_type><id>4</id><title>Участник</title><description/></person_type>
+<person_type><id>5</id><title>Продюсер</title><description/></person_type>
+<person_type><id>6</id><title>Актер</title><description/></person_type>
+<person_type><id>7</id><title>Сценарист</title><description/></person_type>
+<person_type><id>8</id><title>Оператор</title><description/></person_type>
+<person_type><id>9</id><title>Композитор</title><description/></person_type>
+<person_type><id>10</id><title>Художник</title><description/></person_type>
+<person_type><id>11</id><title>Монтажер</title><description/></person_type>
+<person_type><id>12</id><title>Переводчик</title><description/></person_type>
+<person_type><id>13</id><title>Актер-дублер</title><description/></person_type>
+<person_type><id>14</id><title>Режиссер дубляжа</title><description/></person_type>
+<person_type><id>16</id><title>Соисполнитель</title><description/></person_type>
+</persons_type>
+</xml>

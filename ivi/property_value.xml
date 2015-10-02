@@ -1,0 +1,441 @@
+<property_values>
+<property_value><id>1</id><title>1</title></property_value>
+<property_value><id>2</id><title>Test</title></property_value>
+<property_value><id>7</id><title>Мужской</title></property_value>
+<property_value><id>8</id><title>Женский</title></property_value>
+<property_value><id>10</id><title>2</title></property_value>
+<property_value><id>11</id><title>3</title></property_value>
+<property_value><id>255</id><title>для детей</title></property_value>
+<property_value><id>256</id><title>для женщин</title></property_value>
+<property_value><id>257</id><title>для мужчин</title></property_value>
+<property_value><id>258</id><title>для пар</title></property_value>
+<property_value><id>259</id><title>для подростков</title></property_value>
+<property_value><id>393</id><title>Фантастические</title></property_value>
+<property_value><id>395</id><title>Комедийные</title></property_value>
+<property_value><id>419</id><title>Драмы</title></property_value>
+<property_value><id>420</id><title>Артхаус</title></property_value>
+<property_value><id>421</id><title>Притча</title></property_value>
+<property_value><id>425</id><title>Приключенческие</title></property_value>
+<property_value><id>428</id><title>Биографии</title></property_value>
+<property_value><id>430</id><title>Фестивальное кино</title></property_value>
+<property_value><id>433</id><title>Нуар</title></property_value>
+<property_value><id>435</id><title>Боевики</title></property_value>
+<property_value><id>436</id><title>Сказки</title></property_value>
+<property_value><id>442</id><title>Трагикомедии</title></property_value>
+<property_value><id>448</id><title>Мелодрамы</title></property_value>
+<property_value><id>454</id><title>Детективные</title></property_value>
+<property_value><id>455</id><title>Полицейские</title></property_value>
+<property_value><id>457</id><title>Шпионские</title></property_value>
+<property_value><id>458</id><title>Юмористические</title></property_value>
+<property_value><id>459</id><title>Экранизации</title></property_value>
+<property_value><id>460</id><title>Короткометражные</title></property_value>
+<property_value><id>461</id><title>Романтические</title></property_value>
+<property_value><id>462</id><title>Западные</title></property_value>
+<property_value><id>466</id><title>Научно-популярные</title></property_value>
+<property_value><id>467</id><title>Образовательные</title></property_value>
+<property_value><id>468</id><title>Вес</title></property_value>
+<property_value><id>469</id><title>Название</title></property_value>
+<property_value><id>470</id><title>Описание</title></property_value>
+<property_value><id>471</id><title>Изображение</title></property_value>
+<property_value><id>472</id><title>Мартышка</title></property_value>
+<property_value><id>473</id><title>Слонёнок</title></property_value>
+<property_value><id>474</id><title>Удав</title></property_value>
+<property_value><id>475</id><title>Попугай</title></property_value>
+<property_value><id>476</id><title>Фунтик</title></property_value>
+<property_value><id>477</id><title>Дядюшка Мокус</title></property_value>
+<property_value><id>478</id><title>Бамбино</title></property_value>
+<property_value><id>479</id><title>Ежик</title></property_value>
+<property_value><id>480</id><title>Медвежонок</title></property_value>
+<property_value><id>481</id><title>Заяц</title></property_value>
+<property_value><id>482</id><title>Волк</title></property_value>
+<property_value><id>483</id><title>Печкин</title></property_value>
+<property_value><id>484</id><title>Шарик</title></property_value>
+<property_value><id>485</id><title>Матроскин</title></property_value>
+<property_value><id>486</id><title>Дядя Федор</title></property_value>
+<property_value><id>487</id><title>Локетт</title></property_value>
+<property_value><id>488</id><title>Чатта</title></property_value>
+<property_value><id>489</id><title>Амур</title></property_value>
+<property_value><id>490</id><title>Черри</title></property_value>
+<property_value><id>491</id><title>Фиксит</title></property_value>
+<property_value><id>492</id><title>Карамель</title></property_value>
+<property_value><id>493</id><title>Мартино </title></property_value>
+<property_value><id>494</id><title>Железный человек</title></property_value>
+<property_value><id>495</id><title>Люди Икс</title></property_value>
+<property_value><id>502</id><title>0-6 лет</title></property_value>
+<property_value><id>503</id><title>7-12 лет</title></property_value>
+<property_value><id>504</id><title>13-16 лет</title></property_value>
+<property_value><id>505</id><title>вдохновляющие</title></property_value>
+<property_value><id>506</id><title>весёлые</title></property_value>
+<property_value><id>507</id><title>героические</title></property_value>
+<property_value><id>508</id><title>депрессивные</title></property_value>
+<property_value><id>510</id><title>душевные</title></property_value>
+<property_value><id>511</id><title>жестокие</title></property_value>
+<property_value><id>513</id><title>зажигательные</title></property_value>
+<property_value><id>514</id><title>захватывающие</title></property_value>
+<property_value><id>516</id><title>мрачные</title></property_value>
+<property_value><id>520</id><title>пошлые</title></property_value>
+<property_value><id>522</id><title>психоделические</title></property_value>
+<property_value><id>524</id><title>романтические</title></property_value>
+<property_value><id>528</id><title>страстные</title></property_value>
+<property_value><id>529</id><title>трогательные</title></property_value>
+<property_value><id>532</id><title>циничные</title></property_value>
+<property_value><id>533</id><title>чувственные</title></property_value>
+<property_value><id>534</id><title>высокобюджетные</title></property_value>
+<property_value><id>535</id><title>голливудские</title></property_value>
+<property_value><id>536</id><title>зрелищные</title></property_value>
+<property_value><id>541</id><title>классические</title></property_value>
+<property_value><id>542</id><title>культовые</title></property_value>
+<property_value><id>545</id><title>народные</title></property_value>
+<property_value><id>548</id><title>остросюжетные</title></property_value>
+<property_value><id>552</id><title>скандальные</title></property_value>
+<property_value><id>554</id><title>странные</title></property_value>
+<property_value><id>557</id><title>биографические</title></property_value>
+<property_value><id>558</id><title>военные</title></property_value>
+<property_value><id>559</id><title>детские</title></property_value>
+<property_value><id>560</id><title>информационные</title></property_value>
+<property_value><id>561</id><title>исследовательские</title></property_value>
+<property_value><id>562</id><title>исторические</title></property_value>
+<property_value><id>563</id><title>криминальные</title></property_value>
+<property_value><id>564</id><title>кулинарные</title></property_value>
+<property_value><id>565</id><title>лайф-стайл</title></property_value>
+<property_value><id>566</id><title>медицинские</title></property_value>
+<property_value><id>567</id><title>Мистические</title></property_value>
+<property_value><id>568</id><title>музыкальные</title></property_value>
+<property_value><id>569</id><title>пародийные</title></property_value>
+<property_value><id>570</id><title>повседневные</title></property_value>
+<property_value><id>571</id><title>познавательные</title></property_value>
+<property_value><id>572</id><title>профессиональные</title></property_value>
+<property_value><id>573</id><title>психологические</title></property_value>
+<property_value><id>574</id><title>развлекательные</title></property_value>
+<property_value><id>576</id><title>спортивные</title></property_value>
+<property_value><id>578</id><title>эротические</title></property_value>
+<property_value><id>581</id><title>про азартные игры</title></property_value>
+<property_value><id>582</id><title>про акул и пираний</title></property_value>
+<property_value><id>583</id><title>про антиутопии</title></property_value>
+<property_value><id>584</id><title>про армию</title></property_value>
+<property_value><id>585</id><title>про бандитов и гангстеров</title></property_value>
+<property_value><id>586</id><title>про безответную любовь</title></property_value>
+<property_value><id>587</id><title>про безумных учёных</title></property_value>
+<property_value><id>588</id><title>про бизнес</title></property_value>
+<property_value><id>589</id><title>про боевые искусства</title></property_value>
+<property_value><id>590</id><title>про борьбу с системой</title></property_value>
+<property_value><id>591</id><title>про брак</title></property_value>
+<property_value><id>592</id><title>про вампиров и оборотней</title></property_value>
+<property_value><id>593</id><title>про Великую отечественную войну</title></property_value>
+<property_value><id>595</id><title>про Вторую Мировую войну</title></property_value>
+<property_value><id>596</id><title>про выживание в диких условиях</title></property_value>
+<property_value><id>597</id><title>про гениев</title></property_value>
+<property_value><id>599</id><title>про динозавров</title></property_value>
+<property_value><id>600</id><title>про доисторические времена</title></property_value>
+<property_value><id>601</id><title>про друзей</title></property_value>
+<property_value><id>604</id><title>про животных</title></property_value>
+<property_value><id>605</id><title>про жизнь</title></property_value>
+<property_value><id>606</id><title>про жульничество и аферы</title></property_value>
+<property_value><id>607</id><title>про заговоры</title></property_value>
+<property_value><id>608</id><title>про запретную любовь</title></property_value>
+<property_value><id>609</id><title>про знаменитостей</title></property_value>
+<property_value><id>611</id><title>про интриги</title></property_value>
+<property_value><id>612</id><title>про искусство</title></property_value>
+<property_value><id>613</id><title>про каникулы</title></property_value>
+<property_value><id>614</id><title>про катастрофы</title></property_value>
+<property_value><id>615</id><title>про киллеров</title></property_value>
+<property_value><id>616</id><title>про компьютеры и IT</title></property_value>
+<property_value><id>617</id><title>про конец света</title></property_value>
+<property_value><id>618</id><title>про королей и королев</title></property_value>
+<property_value><id>619</id><title>про коррупцию</title></property_value>
+<property_value><id>620</id><title>про космос</title></property_value>
+<property_value><id>621</id><title>про кошек и собак</title></property_value>
+<property_value><id>622</id><title>про кукол</title></property_value>
+<property_value><id>623</id><title>про лошадей</title></property_value>
+<property_value><id>624</id><title>про любовь</title></property_value>
+<property_value><id>625</id><title>про магию и волшебство</title></property_value>
+<property_value><id>627</id><title>про месть</title></property_value>
+<property_value><id>628</id><title>про мечи и шпаги</title></property_value>
+<property_value><id>629</id><title>про мифы и легенды</title></property_value>
+<property_value><id>630</id><title>про моду</title></property_value>
+<property_value><id>631</id><title>про музыку</title></property_value>
+<property_value><id>632</id><title>про наркотики</title></property_value>
+<property_value><id>633</id><title>про науку и технику</title></property_value>
+<property_value><id>635</id><title>про неудачников</title></property_value>
+<property_value><id>636</id><title>про ниндзя</title></property_value>
+<property_value><id>637</id><title>про НЛО</title></property_value>
+<property_value><id>638</id><title>про новичков</title></property_value>
+<property_value><id>639</id><title>про ограбления</title></property_value>
+<property_value><id>641</id><title>про однополую любовь</title></property_value>
+<property_value><id>642</id><title>про отцов и детей</title></property_value>
+<property_value><id>643</id><title>про первую любовь</title></property_value>
+<property_value><id>644</id><title>про Первую Мировую войну</title></property_value>
+<property_value><id>645</id><title>про пиратов</title></property_value>
+<property_value><id>646</id><title>про погони</title></property_value>
+<property_value><id>647</id><title>про погружения в глубину</title></property_value>
+<property_value><id>649</id><title>про поиск сокровищ</title></property_value>
+<property_value><id>650</id><title>про политику</title></property_value>
+<property_value><id>651</id><title>про пост-апокалипсис</title></property_value>
+<property_value><id>652</id><title>про предателей</title></property_value>
+<property_value><id>653</id><title>про преображения</title></property_value>
+<property_value><id>654</id><title>про преступления</title></property_value>
+<property_value><id>655</id><title>про привидений</title></property_value>
+<property_value><id>656</id><title>про принцесс</title></property_value>
+<property_value><id>657</id><title>про природу</title></property_value>
+<property_value><id>658</id><title>про притяжение противоположностей</title></property_value>
+<property_value><id>659</id><title>про провинцию</title></property_value>
+<property_value><id>660</id><title>про психологию</title></property_value>
+<property_value><id>662</id><title>про путешествия</title></property_value>
+<property_value><id>663</id><title>про путешествия во времени</title></property_value>
+<property_value><id>664</id><title>про работу</title></property_value>
+<property_value><id>668</id><title>про свадьбы</title></property_value>
+<property_value><id>669</id><title>про сверхъестественное</title></property_value>
+<property_value><id>670</id><title>про секретных агентов</title></property_value>
+<property_value><id>671</id><title>про семейные проблемы</title></property_value>
+<property_value><id>672</id><title>про семью</title></property_value>
+<property_value><id>673</id><title>про серийных убийц</title></property_value>
+<property_value><id>674</id><title>про сильных женщин</title></property_value>
+<property_value><id>675</id><title>про смену жизненных приоритетов</title></property_value>
+<property_value><id>678</id><title>про спорт</title></property_value>
+<property_value><id>679</id><title>про средневековье</title></property_value>
+<property_value><id>680</id><title>про супергероев</title></property_value>
+<property_value><id>681</id><title>про счастье</title></property_value>
+<property_value><id>682</id><title>про тайные общества</title></property_value>
+<property_value><id>683</id><title>про тварей</title></property_value>
+<property_value><id>684</id><title>про теорию заговора</title></property_value>
+<property_value><id>685</id><title>про терроризм</title></property_value>
+<property_value><id>687</id><title>про тусовки</title></property_value>
+<property_value><id>688</id><title>про тюрьму</title></property_value>
+<property_value><id>689</id><title>про угоны</title></property_value>
+<property_value><id>690</id><title>про угрозу всему миру</title></property_value>
+<property_value><id>691</id><title>про универ</title></property_value>
+<property_value><id>694</id><title>про школу</title></property_value>
+<property_value><id>695</id><title>про шоубизнес</title></property_value>
+<property_value><id>696</id><title>про шпионов</title></property_value>
+<property_value><id>697</id><title>про эксперименты</title></property_value>
+<property_value><id>698</id><title>оригинального сценария</title></property_value>
+<property_value><id>699</id><title>сюжетов других фильмов</title></property_value>
+<property_value><id>700</id><title>книг</title></property_value>
+<property_value><id>701</id><title>комиксов</title></property_value>
+<property_value><id>702</id><title>эпоса и легенд</title></property_value>
+<property_value><id>703</id><title>реальных событий</title></property_value>
+<property_value><id>704</id><title>видеоигр</title></property_value>
+<property_value><id>705</id><title>биографий</title></property_value>
+<property_value><id>707</id><title>для всей семьи</title></property_value>
+<property_value><id>713</id><title>Алладин</title></property_value>
+<property_value><id>714</id><title>Баба-Яга</title></property_value>
+<property_value><id>715</id><title>Барбоскины</title></property_value>
+<property_value><id>716</id><title>Барон Мюнхаузен</title></property_value>
+<property_value><id>717</id><title>Бегемот</title></property_value>
+<property_value><id>718</id><title>Белка и Стрелка</title></property_value>
+<property_value><id>719</id><title>Белоснежка</title></property_value>
+<property_value><id>720</id><title>Большой Ух</title></property_value>
+<property_value><id>721</id><title>Бременские музыканты</title></property_value>
+<property_value><id>722</id><title>Буратино</title></property_value>
+<property_value><id>723</id><title>Вера и Анфиса</title></property_value>
+<property_value><id>724</id><title>Веседые мишки</title></property_value>
+<property_value><id>725</id><title>Винкс - маленькие волшебницы</title></property_value>
+<property_value><id>726</id><title>Винни Пух</title></property_value>
+<property_value><id>727</id><title>Вовка в тридевятом царстве</title></property_value>
+<property_value><id>729</id><title>Волк и Заяц</title></property_value>
+<property_value><id>730</id><title>Гадкий утенок</title></property_value>
+<property_value><id>731</id><title>Двенадцать месяцев</title></property_value>
+<property_value><id>732</id><title>Девочка Маша</title></property_value>
+<property_value><id>733</id><title>Дед Мороз</title></property_value>
+<property_value><id>734</id><title>Доктор Айболит</title></property_value>
+<property_value><id>735</id><title>Домовенок Кузя</title></property_value>
+<property_value><id>736</id><title>Дракоша</title></property_value>
+<property_value><id>737</id><title>Дюймовочка</title></property_value>
+<property_value><id>738</id><title>Дядюшка Ау</title></property_value>
+<property_value><id>739</id><title>Дядя Федор и его друзья</title></property_value>
+<property_value><id>740</id><title>Ежик и Медвежонок</title></property_value>
+<property_value><id>743</id><title>Змей Горыныч</title></property_value>
+<property_value><id>744</id><title>Золушка</title></property_value>
+<property_value><id>745</id><title>Иван-Царевич</title></property_value>
+<property_value><id>746</id><title>Ивашка</title></property_value>
+<property_value><id>747</id><title>Катерок</title></property_value>
+<property_value><id>748</id><title>Колобки</title></property_value>
+<property_value><id>749</id><title>Конек-Горбунок</title></property_value>
+<property_value><id>750</id><title>Кот</title></property_value>
+<property_value><id>751</id><title>Кот в сапогах</title></property_value>
+<property_value><id>752</id><title>Котенок</title></property_value>
+<property_value><id>753</id><title>Котенок Гав</title></property_value>
+<property_value><id>754</id><title>Красная Шапочка</title></property_value>
+<property_value><id>755</id><title>Крошка Енот</title></property_value>
+<property_value><id>756</id><title>Кузнечик Кузя</title></property_value>
+<property_value><id>757</id><title>Леопольд</title></property_value>
+<property_value><id>758</id><title>Лесные звери</title></property_value>
+<property_value><id>759</id><title>Линус и Бум</title></property_value>
+<property_value><id>760</id><title>Лиса</title></property_value>
+<property_value><id>761</id><title>Лисенок</title></property_value>
+<property_value><id>762</id><title>Лошарик</title></property_value>
+<property_value><id>763</id><title>Лунтик и его друзья</title></property_value>
+<property_value><id>764</id><title>Львенок и черепаха</title></property_value>
+<property_value><id>765</id><title>Маленький Мук</title></property_value>
+<property_value><id>766</id><title>Малыш и Карлсон</title></property_value>
+<property_value><id>767</id><title>Мальчик с пальчик</title></property_value>
+<property_value><id>769</id><title>Мартышка, Удав, Попугай и Слон</title></property_value>
+<property_value><id>770</id><title>Масяня</title></property_value>
+<property_value><id>771</id><title>Маугли</title></property_value>
+<property_value><id>772</id><title>Маша и Медведь</title></property_value>
+<property_value><id>773</id><title>Мойдодыр</title></property_value>
+<property_value><id>774</id><title>Муми-Тролли</title></property_value>
+<property_value><id>775</id><title>Муха-Цокотуха</title></property_value>
+<property_value><id>776</id><title>Мышонок</title></property_value>
+<property_value><id>778</id><title>Незнайка</title></property_value>
+<property_value><id>779</id><title>Обезьянки</title></property_value>
+<property_value><id>780</id><title>Ослик</title></property_value>
+<property_value><id>781</id><title>Осьминожки</title></property_value>
+<property_value><id>782</id><title>Ох и Ах</title></property_value>
+<property_value><id>783</id><title>Паровозик</title></property_value>
+<property_value><id>784</id><title>Пес</title></property_value>
+<property_value><id>786</id><title>Пингвиненок Лоло</title></property_value>
+<property_value><id>787</id><title>Пиноккио</title></property_value>
+<property_value><id>788</id><title>ПопПикси</title></property_value>
+<property_value><id>789</id><title>Попугай Кеша</title></property_value>
+<property_value><id>790</id><title>Привидение</title></property_value>
+<property_value><id>791</id><title>Птичка Тари</title></property_value>
+<property_value><id>792</id><title>Рики Тики Тави</title></property_value>
+<property_value><id>793</id><title>Свирепый бамбр</title></property_value>
+<property_value><id>794</id><title>Смешарики</title></property_value>
+<property_value><id>795</id><title>Собачка</title></property_value>
+<property_value><id>796</id><title>Соник супер-ежик</title></property_value>
+<property_value><id>797</id><title>Спящая Красавица</title></property_value>
+<property_value><id>798</id><title>Тараканище</title></property_value>
+<property_value><id>799</id><title>Тигренок и его друзья</title></property_value>
+<property_value><id>800</id><title>Три богатыря</title></property_value>
+<property_value><id>801</id><title>Три котенка</title></property_value>
+<property_value><id>802</id><title>Три толстяка</title></property_value>
+<property_value><id>803</id><title>Умка</title></property_value>
+<property_value><id>804</id><title>Утенок</title></property_value>
+<property_value><id>805</id><title>Ушастик</title></property_value>
+<property_value><id>806</id><title>Фиксики</title></property_value>
+<property_value><id>807</id><title>Фунтик и его друзья</title></property_value>
+<property_value><id>808</id><title>Царевна Лягушка</title></property_value>
+<property_value><id>809</id><title>Чертенок</title></property_value>
+<property_value><id>810</id><title>Чиполлино</title></property_value>
+<property_value><id>811</id><title>Щелкунчик</title></property_value>
+<property_value><id>812</id><title>Элли и Тотошка</title></property_value>
+<property_value><id>813</id><title>Том и Джерри</title></property_value>
+<property_value><id>814</id><title>Багз Банни</title></property_value>
+<property_value><id>816</id><title>Для детей</title></property_value>
+<property_value><id>817</id><title>Рик Хантер</title></property_value>
+<property_value><id>818</id><title>Ди Джей и Заглотыш</title></property_value>
+<property_value><id>819</id><title>про инопланетян</title></property_value>
+<property_value><id>820</id><title>Вилли Фог</title></property_value>
+<property_value><id>821</id><title>про героизм поневоле</title></property_value>
+<property_value><id>822</id><title>про измену</title></property_value>
+<property_value><id>827</id><title>про одиночество</title></property_value>
+<property_value><id>828</id><title>про преодоление трудностей</title></property_value>
+<property_value><id>829</id><title>про маньяков</title></property_value>
+<property_value><id>831</id><title>про инвалидов</title></property_value>
+<property_value><id>832</id><title>про страхи</title></property_value>
+<property_value><id>834</id><title>про расставания</title></property_value>
+<property_value><id>835</id><title>про убийства и убийц</title></property_value>
+<property_value><id>836</id><title>про настоящих мужчин</title></property_value>
+<property_value><id>837</id><title>про художников</title></property_value>
+<property_value><id>838</id><title>про войну</title></property_value>
+<property_value><id>839</id><title>про церковь</title></property_value>
+<property_value><id>842</id><title>про танцы</title></property_value>
+<property_value><id>843</id><title>про птиц</title></property_value>
+<property_value><id>844</id><title>про китов</title></property_value>
+<property_value><id>845</id><title>про будущее</title></property_value>
+<property_value><id>846</id><title>про роботов</title></property_value>
+<property_value><id>847</id><title>про богов</title></property_value>
+<property_value><id>849</id><title>про добрые дела</title></property_value>
+<property_value><id>851</id><title>про катаклизмы</title></property_value>
+<property_value><id>852</id><title>про экспедиции</title></property_value>
+<property_value><id>856</id><title>атмосферные</title></property_value>
+<property_value><id>859</id><title>трешовые</title></property_value>
+<property_value><id>860</id><title>эпические</title></property_value>
+<property_value><id>861</id><title>динамичные</title></property_value>
+<property_value><id>862</id><title>трагичные</title></property_value>
+<property_value><id>863</id><title>Мюзикл</title></property_value>
+<property_value><id>864</id><title>ситкомы</title></property_value>
+<property_value><id>865</id><title>про зомби</title></property_value>
+<property_value><id>866</id><title>про похищения</title></property_value>
+<property_value><id>869</id><title>про борьбу за власть</title></property_value>
+<property_value><id>870</id><title>про любовные треугольники</title></property_value>
+<property_value><id>871</id><title>про Рождество и Новый год</title></property_value>
+<property_value><id>872</id><title>праздничные</title></property_value>
+<property_value><id>873</id><title>про мечту</title></property_value>
+<property_value><id>875</id><title>про рыб</title></property_value>
+<property_value><id>876</id><title>про побег</title></property_value>
+<property_value><id>877</id><title>добрые</title></property_value>
+<property_value><id>880</id><title>про революцию</title></property_value>
+<property_value><id>881</id><title>про деньги</title></property_value>
+<property_value><id>882</id><title>про отношения</title></property_value>
+<property_value><id>883</id><title>про соперничество</title></property_value>
+<property_value><id>885</id><title>про самураев</title></property_value>
+<property_value><id>886</id><title>про человеческие пороки</title></property_value>
+<property_value><id>887</id><title>шокирующие</title></property_value>
+<property_value><id>890</id><title>про моря и океаны</title></property_value>
+<property_value><id>891</id><title>про репрессии</title></property_value>
+<property_value><id>892</id><title>про борьбу со злом</title></property_value>
+<property_value><id>893</id><title>Проверено</title></property_value>
+<property_value><id>894</id><title>Проверено, нет HD</title></property_value>
+<property_value><id>895</id><title>про драконов</title></property_value>
+<property_value><id>896</id><title>Disney</title></property_value>
+<property_value><id>897</id><title>BBC</title></property_value>
+<property_value><id>898</id><title>Fox</title></property_value>
+<property_value><id>899</id><title>Sony Pictures</title></property_value>
+<property_value><id>900</id><title>Paramount</title></property_value>
+<property_value><id>901</id><title>WarnerTV</title></property_value>
+<property_value><id>902</id><title>Warner Bros</title></property_value>
+<property_value><id>903</id><title>National Geographic</title></property_value>
+<property_value><id>904</id><title>Universal</title></property_value>
+<property_value><id>905</id><title>Мосфильм</title></property_value>
+<property_value><id>906</id><title>Ленфильм</title></property_value>
+<property_value><id>907</id><title>СТВ</title></property_value>
+<property_value><id>908</id><title>про самолеты</title></property_value>
+<property_value><id>909</id><title>0 - 3 года</title></property_value>
+<property_value><id>910</id><title>4 - 6 лет</title></property_value>
+<property_value><id>913</id><title>Опера</title></property_value>
+<property_value><id>914</id><title>Балет</title></property_value>
+<property_value><id>915</id><title>Оперетта</title></property_value>
+<property_value><id>917</id><title>1</title></property_value>
+<property_value><id>918</id><title>2</title></property_value>
+<property_value><id>919</id><title>3</title></property_value>
+<property_value><id>920</id><title>0</title></property_value>
+<property_value><id>921</id><title>1</title></property_value>
+<property_value><id>922</id><title>Marc Dorcel</title></property_value>
+<property_value><id>923</id><title>Penthouse</title></property_value>
+<property_value><id>924</id><title>Playboy</title></property_value>
+<property_value><id>926</id><title>про писателей</title></property_value>
+<property_value><id>927</id><title>Судебные</title></property_value>
+<property_value><id>928</id><title>Сцены курения</title></property_value>
+<property_value><id>929</id><title>Ненормативная лексика</title></property_value>
+<property_value><id>930</id><title>Сцены насилия</title></property_value>
+<property_value><id>931</id><title>Эротические сцены</title></property_value>
+<property_value><id>932</id><title>Сцены употребления наркотиков</title></property_value>
+<property_value><id>933</id><title>Травмирующие сцены</title></property_value>
+<property_value><id>934</id><title>Сцены ассоциального или опасного поведения</title></property_value>
+<property_value><id>935</id><title>Секс-звёзды</title></property_value>
+<property_value><id>936</id><title>Секс-фантазии</title></property_value>
+<property_value><id>937</id><title>Эротические приключения</title></property_value>
+<property_value><id>938</id><title>Секс-вечеринка</title></property_value>
+<property_value><id>939</id><title>Эротический роман</title></property_value>
+<property_value><id>944</id><title>Sony Plus</title></property_value>
+<property_value><id>945</id><title>про путешествия вокруг света</title></property_value>
+<property_value><id>946</id><title>про монстров</title></property_value>
+<property_value><id>947</id><title>про современные конфликты</title></property_value>
+<property_value><id>948</id><title>про проституток</title></property_value>
+<property_value><id>949</id><title>Грустная</title></property_value>
+<property_value><id>950</id><title>Поп_young</title></property_value>
+<property_value><id>951</id><title>Медленная</title></property_value>
+<property_value><id>952</id><title>Веселая</title></property_value>
+<property_value><id>953</id><title>Нейтральная</title></property_value>
+<property_value><id>954</id><title>Средне_темповая</title></property_value>
+<property_value><id>955</id><title>Быстрая</title></property_value>
+<property_value><id>956</id><title>Поп_old</title></property_value>
+<property_value><id>957</id><title>Инди_поп</title></property_value>
+<property_value><id>958</id><title>Рэп_old</title></property_value>
+<property_value><id>959</id><title>Рэп_new</title></property_value>
+<property_value><id>960</id><title>Рэп_true</title></property_value>
+<property_value><id>961</id><title>Рэп_nottrue</title></property_value>
+<property_value><id>962</id><title>Рок_true</title></property_value>
+<property_value><id>963</id><title>Рок_nottrue</title></property_value>
+<property_value><id>964</id><title>Рок_жесткач</title></property_value>
+<property_value><id>965</id><title>Инди_рок</title></property_value>
+<property_value><id>966</id><title>Клубная_hard</title></property_value>
+<property_value><id>967</id><title>Клубная_middle</title></property_value>
+<property_value><id>968</id><title>Инди_электроника</title></property_value>
+<property_value><id>969</id><title>80-ые</title></property_value>
+<property_value><id>970</id><title>90-ые</title></property_value>
+<property_value><id>971</id><title>Star Wars</title></property_value>
+</property_values>

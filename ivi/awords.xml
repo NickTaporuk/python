@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+
+<awards>
+<award hash='0b53d382f60b0f11a365d27792a7f05cffdda65d'><id>1</id><title>Муз ТВ</title><description>Премия телеканала</description><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='cb70647f987409f318bde32023993428acc452d9'><id>2</id><title>MTV Movie Awards</title><description>Grammy</description><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='bb00db96db941aa1a03ba58039de3846fa448617'><id>4</id><title>Grammy</title><description>Grammy</description><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='1af96d0eb9ec25a847977c65a73db3260b73ca36'><id>5</id><title>Оскар</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='67a2e7a4502c22dccb5a39800ec6605bee1daf1e'><id>6</id><title>Каннский кинофестиваль</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='85c38e665941920436d105c7cd9fcd754d834289'><id>7</id><title>Золотой глобус</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='e52decf41bf28ee8123bfd8b6b07a8784b683d38'><id>8</id><title>Венецианский кинофестиваль</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='db9215d4ab54d189b40878a4f49e7ce0239510c7'><id>9</id><title>Британская академия</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='8a9fe14e999e1c38314bfcadb546cac9d9f27e5c'><id>10</id><title>Берлинский кинофестиваль</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='00c37015827ece6fe83c8933ae8deb7118e01e5f'><id>11</id><title>Премия канала «MTV»</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='45c01689573c4dc8dfd78a773104de58a1cd7e18'><id>12</id><title>Санденс</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='6e2c421e8888074a20015db0ff4e44e0ff3392f7'><id>13</id><title>Золотая малина</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='2a5f3270b077add4745fa7f0516686f44321697e'><id>14</id><title>Кинотавр</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='4328800beb289c93b63366a023039af4dabd5a5d'><id>15</id><title>Сатурн</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='87bc1bc56d996ab5dc6b91e0c86963461c43f33c'><id>16</id><title>Сезар</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='177d18b7aeed9615754fead972c3e4e9cdcf54fd'><id>17</id><title>ММКФ</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='719ed3573e9a7f865e2fd12908d6e9db932f6b38'><id>18</id><title>Ника</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='740e3cccfde0e2a00a555dc5047c3570c95bf401'><id>19</id><title>Золотой орел</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='fd418b1755aa04104300c909b3b32994002c3c86'><id>20</id><title>Кинонаграды «MTV-Россия»</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='6e6dcd0ffea1d840f7ccad9d52a063d03787017e'><id>21</id><title>Карловы Вары</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='b57a52daa1db149138c27526e3da9b379a35b7c6'><id>22</id><title>Сан-Себастьян</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='3ae15d3d112077a5a26cb2c084aa39b023a6e4df'><id>23</id><title>Европейская киноакадемия</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='43fe6f6b655fbcbf4892f2f009a0aac41d21f227'><id>24</id><title>Гойя</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='73babda71cb977f45fe9e719ed2a0f2f5ce1e653'><id>25</id><title>Азиатская киноакадемия</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='8a6d29ffa7fa9739d7ad9065d329550de50d0394'><id>26</id><title>Жорж</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='aa19e96b8025834cbb8366f36151194861fa7be4'><id>27</id><title>Эмми</title><description>награда</description><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='8ac069befc990e949c9d7ff888ed26a2baddcec2'><id>28</id><title>Премия Гильдии актеров</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+<award hash='c94f820feef51b692ff509fbb18f7f22c71759d5'><id>29</id><title>Сандэнс</title><description/><place/><url_to_resource/><image_id/><start_year/><end_year/></award>
+</awards>
+</xml>

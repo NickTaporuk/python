@@ -1,0 +1,22 @@
+<properties>
+<property><id>1</id><title>Киностудия</title><xml_field>production_company</xml_field><unique>0</unique></property>
+<property><id>2</id><title>тест</title><xml_field>test_property</xml_field><unique>0</unique></property>
+<property><id>3</id><title>Возрастная категория для детского контента</title><xml_field>age_category</xml_field><unique>0</unique></property>
+<property><id>8</id><title>Пол</title><xml_field>gender</xml_field><unique>0</unique></property>
+<property><id>13</id><title>Аудитория</title><xml_field>audience</xml_field><unique>0</unique></property>
+<property><id>14</id><title>Поджанр</title><xml_field>subgenre</xml_field><unique>0</unique></property>
+<property><id>16</id><title>Спецпроект</title><xml_field>sproj</xml_field><unique>0</unique></property>
+<property><id>17</id><title>Персонаж</title><xml_field>character</xml_field><unique>0</unique></property>
+<property><id>18</id><title>Настроение</title><xml_field>mood</xml_field><unique>0</unique></property>
+<property><id>19</id><title>Качества</title><xml_field>quality</xml_field><unique>0</unique></property>
+<property><id>20</id><title>Про что</title><xml_field>about</xml_field><unique>0</unique></property>
+<property><id>21</id><title>На основе</title><xml_field>basis</xml_field><unique>0</unique></property>
+<property><id>22</id><title>Категории</title><xml_field>category_property</xml_field><unique>0</unique></property>
+<property><id>23</id><title>Проверка</title><xml_field>check</xml_field><unique>0</unique></property>
+<property><id>24</id><title>Участник ivi star</title><xml_field>ivistar</xml_field><unique>1</unique></property>
+<property><id>25</id><title>Id участника ivi star</title><xml_field>ivistar_user</xml_field><unique>1</unique></property>
+<property><id>26</id><title>Номер этапа ivi star</title><xml_field>ivistar_round</xml_field><unique>1</unique></property>
+<property><id>27</id><title>Ограничения</title><xml_field>restrictions</xml_field><unique>0</unique></property>
+<property><id>28</id><title>Гидра music</title><xml_field>hydra_music</xml_field><unique>0</unique></property>
+<property><id>29</id><title>Франшиза</title><xml_field>franchise</xml_field><unique>0</unique></property>
+</properties>

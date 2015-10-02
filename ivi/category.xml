@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+<content_categories>
+<content_category hash='124e12668ca8b12113f607ccca761447f7c63544'><id>1</id><title>Музыка</title><description>Аудио</description><hru>music</hru></content_category>
+<content_category hash='21adf6db69a4940d86f9655c3e2f3c4bccde384b'><id>14</id><title>Кино</title><description>Специальная категория(формат) для ivi.ru </description><hru>movies</hru></content_category>
+<content_category hash='f1dd87c27186588cd2f7786a9bcb1999c4b1d021'><id>15</id><title>Сериалы</title><description/><hru>series</hru></content_category>
+<content_category hash='1cf9f9189ef7882597a5cdeeb22f1d9567ba3db7'><id>16</id><title>Программы</title><description/><hru>programs</hru></content_category>
+<content_category hash='a2d7df9d633b0271db3ef03ef196396a4c362350'><id>17</id><title>Мультфильмы</title><description/><hru>animation</hru></content_category>
+<content_category hash='c0a8e8a824fd785a3ee99c804b19ab81563a3847'><id>18</id><title>Не определено</title><description/><hru>ne_opredeleno</hru></content_category>
+<content_category hash='7681145888f98e4ada9634fde1157faaaea467b1'><id>19</id><title>Документальное кино</title><description>Спец категория для реестра.
+Карточки контента должны иметь категорию "Кино"</description><hru>dokumentalnoe_kino</hru></content_category>
+<content_category hash='07eb818f306842db79184e36aeec63c0e1624961'><id>20</id><title>Для детей</title><description>Контент для детей</description><hru>dlya_detej</hru></content_category>
+<content_category hash='08241526ac415117e2f098de16d2c54872aae72a'><id>22</id><title>Основной раздел</title><description>Основной раздел</description><hru>general_partition</hru></content_category>
+</content_categories>
+</xml>
